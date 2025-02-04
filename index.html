@@ -6,33 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+          background-image: url('./Images/Background.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+
+        @font-face {
+            font-family: Altone;
+            src: url('./Fonts/AltoneTrial-Bold.ttf');
+        }
+
+        @font-face {
+            font-family: Fujifilm;
+            src: url('./Fonts/Fuji-Bold.otf');
+        }
+
+        a:link, a:visited, a:active {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: green;
+            font-size: 120%;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
-        <h1>Logo and Navigation Bar</h1>
-      </div> 
+        <h1 class = "headertext">PaulFababeir</h1>
+        <div class="navigationtexts">
+            <h2 class="headertext2">
+                <a  href="#Featured"> Featured </a>
+            </h2>
+            <h2 class="headertext2">
+                <a href="#Projects"> Projects </a>
+            </h2>
+            <h2 class="headertext2">
+                <a href="#Skills"> Skills </a>
+            </h2>
+            <h2 class="headertext2">
+                <a href="#Autobiography"> Autobiography </a>
+            </h2>
+        </div>
+        
+    </div> 
 
     <div class="parenttext">
-        <div class="text"> Featured Photo</div>
-        <div class="placeholderparent">
+        <div class="bodyobjects">
+            <div id="Featured"> Featured Photo</div>
+        </div>
+
+        <div class="bodyobjects">
             <div class="placeholder"></div>    
         </div>
-        
 
-        <div class="text"> Previous Projects</div>
-        <div class="parentproject">
-            <div class="projects"></div>
-            <div class="projects"></div>
-            <div class="projects"></div>
-            <div class="projects"></div>
+        <div class="bodyobjects">
+            <div id="Projects"> Previous Projects</div>   
         </div>
         
-        <div class="skillsautoparent">
-            <div class="text2"> Skills</div>
-            <div class="text2"> Autobiography</div>
+        <div class="bodyobjects">
+            <div class="projects"></div>
+            <div class="projects"></div>
+            <div class="projects"></div>
+            <div class="projects"></div>   
+        </div>
+        
+        <div class="bodyobjects">
+            <div id="Skills"> Skills </div>
+            <div id="Autobiography"> Autobiography </div>
         </div>
 
-        <div class="skillsautoparent">
+        <div class="bodyobjects">
             <div class="projects"></div>
             <div class="projects"></div>
         </div>
